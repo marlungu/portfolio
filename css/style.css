@@ -6,18 +6,21 @@
 
 nav a {
   padding: 30px;
-  color: white;
+  color: #aaa;
   font-weight: bold;
 }
 nav {
   display: flex;
   justify-content: flex-end;
 }
+nav a:hover {
+  color: purple;
+}
 #banner{
   background-color:#3B3B3B !important;
   height: 80px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-color: black;
+  border-color: #000;
 }
 
 body {
@@ -26,7 +29,7 @@ body {
   background: url("../images/background-image.jpg");
   color:#aaa;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0 auto;
   padding: 0;
   /*text-align: center;*/
@@ -46,7 +49,6 @@ h2,h3{
   margin: 8%;
   font-size: 2em;
   font-family: 'Raleway', sans-serif;
-
 
 
 }
@@ -73,9 +75,7 @@ footer {
   text-align: center;
 }
 .btn-contact{
-  color: black;
-  background: purple;
-  border:solid 2px purple;
+  color: #DFBEEB;
   border-radius:30%;
   display:inline-block;
   width:44px;
@@ -86,11 +86,10 @@ footer {
 }
 
 .btn-contact:hover{
-  border:solid 2px red;
-  color: blue;
+  color: purple;
 }
 span {
-  color: purple;
+  color: #DFBEEB;
 }
 /*contact form style*/
 #contactForm {
@@ -140,5 +139,23 @@ form{
 }
 
 #footer {
-  margin:15%;
+  margin-top:13%;
+  /*margin: 15px;*/
+}
+/* styling portofolio.html file */
+.line {
+  margin: 0 30%;
+}
+.grid {
+  display: inline-block;
+  color: transparent;
+}
+.grid li a {
+  color: red;
+}
+.grid li a:hover {
+  color: purple;
+}
+#footer3 {
+  margin-top:30%;
 }
