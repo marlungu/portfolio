@@ -10,7 +10,7 @@ $.fn.extend({
         });
     }
 });
-$('body').animateCss('bounce');
-// $('.container').animateCss('zoomIn');
-$('.intro-text img').animateCss('rubberBand');
-$('.skills').animateCss('lightSpeedIn');
+// $('body').animateCss('bounce');
+// // $('.container').animateCss('zoomIn');
+// $('.intro-text img').animateCss('rubberBand');
+// $('.skills').animateCss('lightSpeedIn');
