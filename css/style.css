@@ -26,7 +26,7 @@
   flex-direction: column;
 }
 nav a {
-  padding: 30px;
+  padding: 30px 20px;
   color: #FFFFFF;
   font-weight: 900;
   text-transform: uppercase;
@@ -43,13 +43,18 @@ nav a:hover {
   background-color: transparent;
   height: 80px;
 }
-
+.container {
+  width: 90%;
+  -webkit-box-shadow: -1px -5px 5px 0px rgba(33,27,33,1);
+-moz-box-shadow: -1px -5px 5px 0px rgba(33,27,33,1);
+box-shadow: -1px -5px 5px 0px rgba(33,27,33,1);
+}
 body {
   background: url("../images/main_img.png");
   background-size: cover;
   margin:0 auto;
   padding: 0;
-  /*opacity: .80;*/
+  opacity: .8;
 }
 main header{
   width: 100%;
@@ -93,9 +98,9 @@ div .p {
   float: right;
   max-width: 60%;
   font-size: 20px;
-  margin:0 1px 100px;
+  margin:0 10px 150px;
   height: 185px;
-  color:#FFF7EF;
+  color:#fc1;
   padding: 20px;
 
 }
