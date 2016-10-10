@@ -3,6 +3,7 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
 #banner .container {
   width:95%;
   max-width:1024px;
@@ -33,6 +34,7 @@ nav {
   display: flex;
   justify-content: flex-start;
 }
+
 nav a:hover {
   background-color: white;
   color: red;
@@ -149,8 +151,26 @@ h2,h3{
   width: 40%;
   margin: 40px;
   /*height: auto;*/
-  color: #111;
-  font-size: 18px;
+  color: #555;
+  font-size: 1.6em;
+}
+
+hr:after {
+  content:'\f121';
+  font-family: monospace;
+  display:inline-block;
+  position:relative;
+  padding: .2em;
+  font-size: 1em;
+  margin-left:50%;
+  color: #222;
+}
+hr {
+  border-top: 5px;
+  border: 0;
+  padding: 0;
+  max-width:512px;
+
 }
 
 @media(min-width:1023px) {
@@ -205,37 +225,53 @@ h2,h3{
   text-align: center;
 }
 /* styling portofolio.html file */
-.line {
+/*.line {
   margin: 0 30%;
+}*/
+.port {
+  background-color: red;
 }
 .grid {
-  display: inline-block;
-  color: transparent;
+  position: relative;
+  border: 5px solid green;
+  height: 100%;
+  width: auto;
 
 }
+.first_proj {
+  width: 50%;
+  height: 0 auto;
+  border: 5px solid red;
+}
 .first_proj img {
-  align-items: flex-start;
-  margin-left: 100px;
-  margin-top: 10px;
+  float: right;
+  margin-right: 50px;
+  /*margin-top: 5px;*/
   height: 150px;
   width: 250px;
-  display: block;
+  display: flex;
+
 }
 #first {
-  align-items: flex-end;
-  color: white;
+  color:#fcc;
+  font-size: 1.2em;
+  font-family: inherit;
 }
-.grid li a {
+li a {
+  color: red;
+  display: inline-block;
+}
+/*.grid li a {
   color: red;
 }
 .grid li a:hover {
   color: purple;
-}
-#footer3 {
+}*/
+/*#footer3 {
   margin-top:33%;
   position: fixed;
   margin-left: 550px;
-}
+}*/
 body {
   -vendor-animation-duration: 10s;
   -vendor-animation-delay: 10s;
