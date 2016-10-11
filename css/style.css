@@ -109,10 +109,12 @@ main {
   }
 }
 .p {
-  color:#fff;
-  font-size: 1.3em;
+  color: #fff;
+  margin-right: 60px;
+  margin-top: 70px;
+  font-size: 1.5em;
   font-family: fantasy;
-  display:inline-block;
+  display:inline;
   width: 50%;
 }
 .intro-text {
@@ -132,7 +134,7 @@ hr.star-bright{
   width:100%;
   border:0;
   display: block;
-  border-top:solid 5px;
+  border-top:solid #bbb 3px;
 }
 
 .skills {
@@ -151,13 +153,17 @@ hr.star-bright{
 #lang li {
   float:left;
   position: relative;
-  margin: 5px 80px;
+  margin: 5px 70px;
   font-size: 1.1em;
-  color: red;
+  color: #ccc;
   display:inline-block;
   padding: 5px;
   opacity: .6;
-  box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 0px 5px 3px rgba(0,0,0,0.8);
+}
+.lang {
+  color: #fff;
+  text-transform: uppercase;
 }
 .list-inline {
   text-align: center;
@@ -204,7 +210,7 @@ hr.star-bright{
   width: 40%;
   margin: 50px;
   color: #222;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 
@@ -226,7 +232,7 @@ hr.star-bright{
   padding-left: 0;
   border: 0;
   border-radius: 0;
-  font-size: 20px;
+  font-size: 1em;
   background: 0;
   resize: none;
   color:black;
@@ -241,10 +247,12 @@ hr.star-bright{
   top: 1em;
   margin:0 0;
   font-size: 1.25em;
-  line-height: 1.4;
+  line-height: 1.;
   vertical-align: middle;
   vertical-align: baseline;
   opacity:0;
+  -webkit-transition:top .3s ease,opacity .3s ease;
+  transition:top .3s ease,opacity .3s ease;
 }
 
 #coffee {
