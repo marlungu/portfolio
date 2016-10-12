@@ -195,7 +195,7 @@ hr.star-bright{
 /*contact page form styling*/
  #contact {
   background-color:#fff;
-  border-radius: 5px;
+  border-radius: 3px;
   opacity: .6;
 }
 #contactForm {
@@ -247,7 +247,7 @@ hr.star-bright{
   top: 1em;
   margin:0 0;
   font-size: 1.25em;
-  line-height: 1.;
+  line-height: 1.4;
   vertical-align: middle;
   vertical-align: baseline;
   opacity:0;
@@ -279,11 +279,11 @@ hr.star-bright{
 /* styling portofolio.html file */
 .line {
   margin: 0 30%;
-  border: 5px solid black;
+  border: 3px solid black;
 }
 #portofolio {
   width: 90%;
-  background: gray;
+  background: #ddd;
 }
 .grid {
   position: relative;
@@ -314,10 +314,11 @@ hr.star-bright{
   font-size: 1.2em;
   font-family: inherit;
 }
-li a {
+a {
   color: red;
   display: inline-block;
 }
+
 #footer3 {
   margin-top: 430px;
   text-align: center;
