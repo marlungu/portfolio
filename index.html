@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width">
   <meta charset="utf-8">
-  <title>Mariana Lungu | About Me</title>
+  <title>Mariana Lungu</title>
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -12,29 +12,33 @@
   <link rel="stylesheet" type="text/css" href="css/style.css"
 </head>
 <body>
-  <div class="container">
-    <header id="banner">
-      <nav>
-        <a href="index.html" class="active">About Me</a>
-        <a href="portofolio.html">Portofolio</a>
-        <a href="contact.html">Contact Me</a>
-        <a href="resume.html">Resume</a>
-      </nav>
+  <header id="banner" class="navbar navbar-default navbar-fixed-top">
+    <div class="container"><a href="#top"class="scrollable"/></a>
+      <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" class="navbar-toggle collapsed">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <nav id="navbar" role="navigation" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" class="scrollable">About Me</a></li>
+            <li><a href="#portfolio" class="scrollable">Portfolio</a></li>
+            <li><a href="#contact" class="scrollable">Contact Me</a></li>
+            <li><a href="#resume" class="scrollable">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <div class="flex-box">
+    <!-- end header--><a id="top" name="home"></a>
 
+    <main>
+      <header>
         <div class="intro-text">
-          <ul id="lang">
             <li><span class="lang">Front End:</span> CSS, HTML5, JavaScript, jQuery</li>
             <li><span class="lang">Back End:</span> Ruby, Ruby on Rails, Sinatra, Active Record</li>
-          </ul>
           <hr class="star-bright"/><span class="skills">Front End Web Developer</span>
-        </div>
-        <div class="p">
           <p>...my name is Mariana and I am a Full Stack Web Developer, graduate of General Assembly.</p>
-            </div>
       </div>
+    </header>
     </main>
     <footer id="footer-above">
       <div>

@@ -1,4 +1,4 @@
-* {
+/** {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -314,11 +314,10 @@ hr.star-bright{
   font-size: 1.2em;
   font-family: inherit;
 }
-a {
+li a {
   color: red;
   display: inline-block;
 }
-
 #footer3 {
   margin-top: 430px;
   text-align: center;
@@ -328,4 +327,4 @@ body {
   -vendor-animation-duration: 10s;
   -vendor-animation-delay: 10s;
   -vendor-animation-iteration-count: infinite;
-}
+}*/
