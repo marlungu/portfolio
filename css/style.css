@@ -162,12 +162,32 @@ main header{
       max-width:420px;
     }
   }
-  #portfolio img{
+  #first-project {
     max-width:100%;
     height:auto;
     display:block;
+    width: 40%;
+    float: left;
+    border: 3px solid red;
+  }
+  #first-project img {
+    height: 200px;
+    width: 200px;
+    float: right;
+  }
+  #first-project p {
+    color: #444;
+    float:left;
   }
 
+  #second-project {
+    float: right;
+    border: 3px solid red;
+
+  }
+  #second-project p {
+    color : #444;
+  }
 
   #contact {
     display: block;
@@ -209,16 +229,22 @@ main header{
     padding:25px 0;
 
   }
-
-  .scroll-top{
+  .scroll-top {
     z-index:1049;
     position:fixed;
     visibility:visible;
-    bottom:2%;
-    right:2%;
-  }
-  .scroll-top a{
-    background: white;
+    bottom:2%;right:2%;
+    a {
+      background:black;
+      &:hover, &:focus {
+        color:$black;
+        background-color:#bbb;
+        border-color:$black;
+      }
+      @media(min-width:768px){
+        visibility:hidden;
+      }
+    }
   }
   .scroll-top a:hover, .scroll-top a:focus{
     color:#aaa;
@@ -231,32 +257,16 @@ main header{
     }
   }
 
-hr.star-bright, hr.star-dark{
-  margin:40px auto 30px;
-  padding:0;
-  max-width:512px;
-  border:0;
-  border-top:solid 5px;
-  text-align:center;
-}
-@media(min-width:1023px){
-  header hr.star-bright, header hr.star-dark{
-    margin-right:0;
-    text-align:right;
-
-
-  header hr.star-bright:after, header hr.star-dark:after{
-    right:10px;
+  hr.star-bright, hr.star-dark{
+    margin:40px auto 30px;
+    padding:0;
+    max-width:512px;
+    border:0;
+    text-align:center;
   }
-}
-hr.star-bright{
-  border-color:#fff;
-  opacity: .8;
-  border-top: solid 5px;
-}
+  @media(min-width:1023px){
+    header hr.star-bright, header hr.star-dark{
+      margin-right:0;
+      text-align:right;
 
-hr.star-dark{
-  border-color:#fff;
-  margin: 0 400px;
-
-}
+    }
