@@ -2,19 +2,18 @@
 <html>
 <head>
   <meta charset="utf-8">
-     <title>MarianaLungu</title>
+  <title>MarianaLungu</title>
 
-     <!-- Bootstrap Core CSS -->
-     <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-     <!-- Custom CSS -->
-     <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
 
-     <!-- Custom Fonts -->
-     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-     <link href="devicons-master/css/devicons.min.css" rel="stylesheet" type="text/css">
+  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href="devicons-master/css/devicons.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <header id="banner" class="navbar navbar-default navbar-fixed-top">
@@ -25,6 +24,7 @@
         <span class="icon-bar"></span><span class="icon-bar"></span></button>
         <nav id="navbar" role="navigation" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
+            <!-- <li class="hidden"><a href="#top"></a></li> -->
             <li><a href="#top" class="scrollable">About Me</a></li>
             <li><a href="#portfolio" class="scrollable">Portfolio</a></li>
             <li><a href="#contact" class="scrollable">Contact Me</a></li>
@@ -35,55 +35,97 @@
     <a id="top" name="home"></a>
     <main>
       <header>
-        <div class="intro-text">
-          <p>my name is Mariana and I'm a StoryTeller </p>
-          <hr class="star-bright"/><span class="skills">Full Stack Web Developer</span>
+        <div class="container">
+          <div class="intro-text">
+            <!-- <div class="img">
+            <img src="images/eu.jpg" alt=""/>
+          </div> -->
+          <h3>I'm a Washington DC based web developer with a never-ending drive to learn.</h3>
+
+          <hr class="star-bright"/><span class="skills">MARIANA LUNGU</span>
         </div>
-      </header>
-    </main>
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <hr class="star-dark">
-      <ul class="grid">
-        <div id="first-project">
-        <img src="images/first_project.png" alt="" />
-        <p>Project 1, I made an FlashCard App. The App was built with HTML, CSS and jQuery. To visit the acctual app <a href="https://marlungu.github.io/FlashCards/" alt="">click here</a>.</p>
       </div>
-      <div id="second-project">
-        <p>I've build a randomQA App in Ruby in Rails.</p>
-      </div>
-      </ul>
-    </section>
-    <br>
-    <br>
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <hr class="star-dark"/>
 
-    <div class="text-contact">
-      <img src="images/eu.jpg" alt=""/>
-      <p>| want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, ...or just feel free to drop me a line anytime.</p>
+    </header>
+    <section id="portfolio"class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Portfolio</h2>
+            <h3 class="section-subheading text-muted">A sample of my work in web development.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <!-- <i class="fa fa-plus fa-3x"></i> -->
+                </div>
+              </div>
+              <img src="images/first_project.png" class="img-responsive"alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>FlashCards</h4>
+              <p class="text-muted">The App was built with HTML, CSS and jQuery. To visit the acctual app <a href="https://marlungu.github.io/FlashCards/" alt="">click here</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <!-- <i class="fa fa-plus fa-3x"></i> -->
+                </div>
+              </div>
+              <img src="images/first_project.png" class="img-responsive"alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>randomQA</h4>
+              <p class="text-muted">I've build a randomQA App in Ruby in Rails.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <!-- <i class="fa fa-plus fa-3x"></i> -->
+                </div>
+              </div>
+              <img src="images/project3.png" class="img-responsive"alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>globalCitizen</h4>
+              <p class="text-muted">I've build an app in Angular and Ruby in Rails.</p>
+            </div>
+          </div>
+          <section id="contact">
+            <h2>Contact Me</h2>
+            <hr class="star-dark"/>
+            <br>
+            <br>
+            <div class="text-contact">
+              <img src="images/eu.jpg" alt=""/>
+              <p>| want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, ...or just feel free to drop me a line anytime.</p>
 
-          <ul class="list-inline">
-              <a href="https://github.com/marlungu" class="btn-contact"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i>
-              </a>
-              <a href="http://codepen.io/marlungu/" class="btn-contact"><i class="fa fa-codepen fa-4x" aria-hidden="true"></i>
-              </i></a>
-
-              <a href="https://twitter.com/marlungu" class="btn-contact"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.instagram.com/marlungu" class="btn-contact"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/mariana-lungu" class="btn-contact"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
-              </i></a>
-          </ul>
-    </div>
-  </section>
-  <br>
-  <br>
-    <div id="footer"> ©
-      <script>document.write(new Date().getFullYear())</script> Mariana Lungu.</script>
-    </div>
-    <script src="js/main.js"></script>
-  </body>
-  </html>
+              <ul class="list-inline social-buttons">
+                <a href="https://github.com/marlungu" class="btn-contact"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+                </a>
+                <a href="http://codepen.io/marlungu/" class="btn-contact"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+                </i></a>
+                <a href="https://twitter.com/marlungu" class="btn-contact"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/marlungu" class="btn-contact"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mariana-lungu" class="btn-contact"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+                </i></a>
+              </ul>
+            </div>
+          </section>
+          <br>
+          <br>
+          <div id="footer"> ©
+            <script>document.write(new Date().getFullYear())</script> Mariana Lungu.</script>
+          </div>
+          <script src="js/main.js"></script>
+        </body>
+        </html>
