@@ -34,8 +34,8 @@ main header,
   margin:0 auto;
 }
 #banner{
-  background-color:#000;
-  height:70px;
+  background:#EBEBEB;
+  height:-50px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-color: #000;
   .container{
@@ -49,13 +49,13 @@ main header,
   }
 }
 
-main header{
+/*main header{
   >*:not(.scroll-top){
     background:#EBEBEB;
     max-width:1024px;
     margin:0 auto;
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
-  }
+  }*/
   header {
     background:#EBEBEB;
     color:#fff;
@@ -76,6 +76,7 @@ main header{
       }
       .name {
         font-size: 1.15em;
+
       }
     }
   }
@@ -100,6 +101,9 @@ main header{
       }
     }
   }
+  /*#imageProject1 {
+    text-align: center;
+  }*/
   #portfolio {
     & .portfolio-item, portfolio-hover-content{
       padding:0;
@@ -120,10 +124,10 @@ main header{
       height:auto;
       display:block;
     }
-    /*& .text-muted {
+    & .text-muted {
       display: block;
       background: red;
-    }*/
+    }
   }
   section#contact {
   display: block;
@@ -159,7 +163,7 @@ main header{
 
   }
   .anchor{
-    color:orange;
+    color:#333;
     &:hover,&:focus{
       color:#;
     }
@@ -231,14 +235,13 @@ main header{
     color: #fff;
   }
 
-/*
 
 #banner .container::before, #banner .container::after{
 display:none
-}*/
+}
 nav{
 font-size:15px;
-background:#aaa;
+background:#000;
 -moz-transition:all .3s;
 -webkit-transition:all .3s;
 transition:all .3s;
@@ -280,7 +283,7 @@ margin-right:0;
 
 
 #top{
-height:80;
+height:0;
 display:block;
 }
 
@@ -298,20 +301,20 @@ align-content:space-around;
     padding:14em;
   }
 }
-/*#portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item .portfolio-link {
 display: block;
-position: relative;
+/*position: relative;*/
 margin: 0 auto;
 max-width: 400px;
 
-}*/
+}
 #portfolio {
 display: block;
-background: red;
+background:#EBEBEB;
 }
 
 
-/*#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
 position: absolute;
 width: 100%;
 height: 100%;
@@ -320,10 +323,10 @@ background: rgba(109, 227, 205, .7);
 -webkit-transition: all ease .5s;
 -moz-transition: all ease .5s;
 transition: all ease .5s;
-}*/
+}
 
 
-/*#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
 position: absolute;
 top: 50%;
 width: 100%;
@@ -332,7 +335,7 @@ margin-top: -12px;
 text-align: center;
 font-size: 20px;
 color: #fff;
-}*/
+}
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
 margin-top: -12px;
@@ -341,6 +344,8 @@ margin-top: -12px;
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
 margin: 0;
+text-align: center;
+
 }
 /*#portfolio .portfolio-item .portfolio-caption {
 margin: 0 auto;
@@ -356,32 +361,58 @@ text-transform: none;
 }
 #portfolio .portfolio-item .portfolio-caption p {
 margin: 0;
+text-align: center;
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 16px;
 font-style: italic;
 }
-#model-one {
-  float: left;
-  margin: 0 auto;
-
-  width: 40%;
-  border: 2px solid green;
-}
-#model-two {
-  float: right;
-  width: 40%;
-  margin: 0 auto;
-  border: 2px solid blue;
-}
-#model-three {
-  justify-content: center;
-}
-/*#portfolio * {
-z-index: 2;
-}*/
 
 @media(min-width:767px) {
 #portfolio .portfolio-item {
 margin: 0 0 30px;
 }
+}
+hr.star-bright, hr.star-dark{
+  margin:40px auto 30px;
+  padding:0;
+  max-width:512px;
+  border:0;
+  border-top:solid 5px;
+  text-align:center;
+}
+@media(min-width:1023px){
+  header hr.star-bright, header hr.star-dark{
+    /*margin-right:0;*/
+    text-align:center;
+  }
+  /*header hr.star-bright:after, header hr.star-dark:after{
+    right:-10px;
+  }*/
+}
+span {
+  color: black;
+  font-size: 1.4em;
+}
+hr.star-bright:after, hr.star-dark:after{
+  content:'\f121';
+  font-family:FontAwesome;
+  display:inline-block;
+  position:relative;
+  top:-.7em;
+  padding: 0.1.25em;
+  font-size: 2em;
+}
+hr.star-bright{
+  border-color:#111;
+}
+hr.star-bright:after{
+  color:#000;
+  background-color:#aaa;
+}
+hr.star-dark{
+  border-color:#111;
+}
+hr.star-dark:after{
+  color:#fff;
+  background-color: #aaa;
 }
