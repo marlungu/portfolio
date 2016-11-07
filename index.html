@@ -2,124 +2,184 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
   <title>MarianaLungu</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
-
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.1.0/css/font-awesome.min.css">
+
+  <!-- <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet"> -->
 
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <link href="devicons-master/css/devicons.min.css" rel="stylesheet" type="text/css">
+  <!-- <link href="devicons-master/css/devicons.min.css" rel="stylesheet" type="text/css"> -->
 </head>
-<body>
-  <header id="banner" class="navbar navbar-default navbar-fixed-top">
+<body id="page-top" class="index">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <a href="#top"class="scroll-top"/></a>
-      <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" class="navbar-toggle collapsed">
-        <span class="sr-only"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span><span class="icon-bar"></span></button>
-        <nav id="navbar" role="navigation" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#top" class="scrollable">About Me</a></li>
-            <li><a href="#portfolio" class="scrollable">Portfolio</a></li>
-            <li><a href="#contact" class="scrollable">Contact Me</a></li>
-          </ul>
-        </nav>
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">mLungu</a>
       </div>
-      <a id="top" name="home"></a>
-    </header>
-    <main>
-      <header>
-        <div class="container">
-          <div class="intro-text">
-            <h3>I'm a Washington DC based web developer with a never-ending drive to learn.</h3>
-            <hr class="star-bright"/><span class="name">MARIANA LUNGU</span>
-          </div>
-        </div>
-      </header>
-      <section id="portfolio"class="bg-light-gray">
-        <div class="container">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden"><a href="#page-top"></a></li>
+          <li><a class="page-scroll" href="#about" class="scrollable">About Me</a></li>
+          <li><a class="page-scroll" href="#portfolio" class="scrollable">Portfolio</a></li>
+          <li><a class="page-scroll" href="#contact" class="scrollable">Contact</a></li>
+          <li><a class="page-scroll" href="resume" class="scrollable">Resume</a></li>
 
-          <h2 class="section-heading">Portfolio</h2>
-          <hr class="star-dark"/>
-          <h3 class="section-subheading text-muted">A sample of my work in web development.</h3>
-          <!-- <div id="model-one"class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
-            <li><a href="https://marlungu.github.io/FlashCards/" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <img id="imageProject1"src="images/first_project.png" class="img-responsive"alt="">
-                  <div class="portfolio-caption">
-                    <h4>FlashCards</h4>
-                    <p class="text-muted">The App was built with HTML, CSS and jQuery. To visit the acctual app.</p>
-                  </div>
-                </div>
-              </div>
-            </a></li>
-          </div> -->
-          <div id="model-two"class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
-            <li><a href="https://marlungu.github.io/randomQA/" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <img id="imageProject1"src="images/project3.png" class="img-responsive"alt="Coming up">
-                  <div class="portfolio-caption">
-                    <h4>randomQA</h4></a>
-                    <p class="text-muted">I've build a randomQA App in Ruby in Rails.</p>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </div>
-          <div id="model-one"class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
-            <li><a href="https://globalcitizen.herokuapp.com/" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <img id="imageProject3"src="images/project3backend.png" class="img-responsive"alt="">
-                  <div class="portfolio-caption">
-                    <h4>globalCitizen</h4>
-                    <p class="text-muted"></p>
-                  </div>
-                </div>
-              </div>
-            </a></li>
-          </div>
-        </div>
-      </section>
-      <section id="contact">
-        <br>
-        <h2>Contact</h2>
-        <!-- <hr class="star-dark"/> -->
-        <div class="text-center-contact">
-          <img class ="contactImage"src="images/eu.jpg" alt=""/>
-          <p>| want to get in touch with me? Be it to request more info about myself or my experience, how to solve your sudoku, random questions about the universe and the meaning of life, ...or just feel free to drop me a line anytime.</p>
-          <div class="scroll-top"><a href="#top" class="button scrollable"><i class="fa fa-chevron-up"></i></a></div>
-
-          <ul class="list-inline">
-            <a class="anchor"href="https://github.com/marlungu" class="btn-contact"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
-            </a>
-            <a class="anchor"href="http://codepen.io/marlungu/" class="btn-contact"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
-            </i></a>
-            <a class="anchor"href="https://twitter.com/_mariancik" class="btn-contact"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
-            </a>
-            <a class="anchor"href="https://www.instagram.com/marlungu" class="btn-contact"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-            </a>
-            <a class="anchor"href="https://www.linkedin.com/in/mariana-lungu" class="btn-contact"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
-            </i></a>
-          </ul>
-        </div>
-        <br>
-      </section>
-    </main>
-
-    <div id="footer"> ©
-      <script>document.write(new Date().getFullYear())</script> Mariana Lungu.</script>
+        </ul>
+      </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-  </html>
+  </nav>
+  <header>
+    <div class="container">
+      <div class="intro-text">
+        <a
+        class="intro-heading page-scroll"
+        href="#about"
+        style="color:whitesmoke">Mariana Lungu</a>
+        <hr class="star-bright"/>
+        <div class="intro-lead-in">Full Stack Web Developer </div>
+      </div>
+    </div>
+  </header>
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">About Me</h2>
+          <h3  class="section-subheading text-muted">I'm a Washington DC based web developer with a never-ending drive to learn.</h3>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-square fa-stack-2x text-primary"></i>
+            <i class="devicons devicons-code_badge fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">What I do</h4>
+          <p class="text-muted">I build Ruby on Rails web applications with frontend MV* JavaScript  frameworks–Angular, Node and Express.</p>
+        </div>
+        <div class="col-md-6">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-square fa-stack-2x text-primary"></i>
+            <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">How i do it</h4>
+          <p class="text-muted">My eager for learning led me to web development. I love & engoy learning & doing new things.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+<section id="portfolio"class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Portfolio</h2>
+        <hr class="star-dark"/>
+        <h3 class="section-subheading text-muted">A sample of my work in web development.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
+        <a href="https://marlungu.github.io/FlashCards/" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="images/first_project.png" class="img-responsive" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>FlashCards</h4>
+          <p class="text-muted">The App was built with HTML, CSS and jQuery. To visit the acctual app.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
+        <a href="https://marlungu.github.io/randomQA/" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="images/project3.png" class="img-responsive"alt="Coming up">
+        </a>
+        <div class="portfolio-caption">
+          <h4>randomQA</h4></a>
+          <p class="text-muted">I've build a randomQA App in Ruby in Rails.</p>
+        </div>
+      </div>
+      <div id="model-one"class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
+        <a href="https://globalcitizen.herokuapp.com/" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img id="imageProject3"src="images/project3backend.png" class="img-responsive"alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>globalCitizen</h4>
+          <p class="text-muted"></p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Contact</h2>
+            <hr class="star-dark"/>
+            <img class ="contactImage"src="images/eu.jpg" alt=""/>
+            <p>| want to get in touch with me? Be it to request more info about myself or my experience, how to solve your sudoku, random questions about the universe and the meaning of life, ...or just feel free to drop me a line anytime.</p>
+            <a href="mailto:me@marianalungu.io?subject= what's new?">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-envelope-o fa-stack-1x"></i>
+              </span>
+            </a>
+            <h3 class="section-subheading text-muted">I'll get back to you soon!</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+            <ul class="list-inline social-buttons">
+              <li>
+              <a href="https://github.com/marlungu" class="btn-contact"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></li>
+                <li>
+                  <a class="anchor"href="http://codepen.io/marlungu/" class="btn-contact"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+                  </i></a></li>
+                  <li>
+                    <a class="anchor"href="https://twitter.com/_mariancik" class="btn-contact"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                    </a></li>
+                    <li>
+                      <a class="anchor"href="https://www.instagram.com/marlungu" class="btn-contact"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                      </a></li>
+                      <li>
+                        <a class="anchor"href="https://www.linkedin.com/in/mariana-lungu" class="btn-contact"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+                        </i></a></li>
+                      </ul>
+              <div id="footer"> ©
+                <script>document.write(new Date().getFullYear())</script> Mariana Lungu.</script>
+              </div>
+              <script src="js/jquery-1.11.0.js"></script>
+              <script src="js/bootstrap.min.js"></script>
+              <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+              <script src="js/classie.js"></script>
+              <script src="js/cbpAnimatedHeader.js"></script>
+              <script src="js/jqBootstrapValidation.js"></script>
+              <script src="js/main.js"></script>
+            </body>
+            </html>
