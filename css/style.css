@@ -2,13 +2,58 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: #000;
-  /*background: url(https://curran.github.io/HTML5Examples/canvas/starfield/index.html);*/
-  /*background: url(../images/download.png);*/
-  /*background-size: cover;*/
-
-  opacity:.8;
 }
+
+html, body {
+    height:100%;
+    width: 100%;
+}
+
+.name {
+    font-size: 2.5em;
+    color:  #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+@media (max-width: 969px) {
+    .name {
+        font-size: 3em !important;
+   }
+}
+/*parallex*/
+.background {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-image: url(../images/snowboarding2.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+.fullscreen,
+.content-a {
+    width: 100%;
+    min-height: 100%;
+}
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height: 100%;
+    overflow: hidden;
+}
+.content-a {
+    display: table;
+}
+.content-b {
+    font-size: 200%;
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #424242;
+}
+
+/*parallex*/
 p {
   font-size: 16px;
   line-height: 1.75;
@@ -31,8 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
-  /*font-size: 1.7em;*/
-  color: #333;
+  color: #444;
 }
 
 .bg-light-gray {
@@ -76,7 +120,7 @@ color: #f6230b;
 .navbar-default .nav li a {
   text-transform: uppercase;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1px;
   color:#fff;
 }
