@@ -3,27 +3,25 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: #000;
-  opacity: 1;
+  /*background: url(https://curran.github.io/HTML5Examples/canvas/starfield/index.html);*/
+  /*background: url(../images/download.png);*/
+  /*background-size: cover;*/
+
+  opacity:.8;
 }
 p {
   font-size: 16px;
   line-height: 1.75;
   font-family: Garamond, Georgia, serif;
 }
-.devicons {
-  margin-top: 25px;
-}
-
 .text-muted {
-  color: #888;
+  color: #777;
 }
 
 .text-primary {
   color: #b64d2a;
 }
-p.large {
-  font-size: 16px;
-}
+
 a,a:hover,a:focus,a:active,a.active {
   outline: 0;
   color: #f6230b;
@@ -34,14 +32,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
   /*font-size: 1.7em;*/
-  color: #777;
+  color: #333;
 }
-.img-centered {
-  margin: 0 auto;
-}
+
 .bg-light-gray {
   background-color: #f7f7f7;
 }
+
 .navbar-default {
 border-color: transparent;
 background-color: #222;
@@ -49,7 +46,7 @@ background-color: #222;
 
 .navbar-default .navbar-brand {
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-color: #000;
+color: #fdfdfd;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -59,7 +56,7 @@ color: #000;
 color: #f6230b;
 }
 .navbar-default .navbar-collapse {
-  border-color: #000;
+  border-color: #fff;
 }
 
 .navbar-default .navbar-toggle {
@@ -86,9 +83,8 @@ color: #f6230b;
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: #fff;
-  color: #000;
-  text-decoration: underline;
+  color: #f6230b;
+  text-decoration: none;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -120,7 +116,7 @@ color: #f6230b;
   }
 
   .navbar-default .navbar-nav>.active>a {
-    border-radius: 3px;
+    border-radius: 5px;
   }
 
   .navbar-default.navbar-shrink {
@@ -142,11 +138,10 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
   font-family: Garamond, Georgia, serif;
   font-size: 22px;
-  font-style: italic;
+  font-style: normal;
   line-height: 22px;
-  color: #ffffff;
+  color: #fff;
 }
-
 
 header .intro-text .intro-heading {
   margin-bottom: 25px;
@@ -172,7 +167,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: Garamond, Georgia, serif;
     font-size: 40px;
-    font-style: italic;
+    font-style: normal;
     text-align: center;
     line-height: 40px;
   }
@@ -184,7 +179,7 @@ header .intro-text .intro-heading {
     font-size: 40px;
     font-weight: 500;
     line-height: 75px;
-    opacity: .7;
+    opacity: .8;
   }
 }
 section {
@@ -290,7 +285,7 @@ section#contact {
 
 }
 .text-center-contact p{
-  font-size:1.2em;
+  /*font-size:1.4em;*/
   margin: 30px 200px 40px;
 }
 .contactImage {
@@ -303,13 +298,6 @@ section#contact {
   text-align: center;
 }
 
-/*ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
-}*/
 ul.social-buttons li a {
     display: block;
     width: 44px;
@@ -319,7 +307,6 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #f6230b;
-    /*background-color: transparent;*/
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -327,7 +314,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color:#777;
+    background-color:#fff;
 }
 .btn:focus,
 .btn:active,
@@ -360,18 +347,19 @@ hr.star-bright:after, hr.star-dark:after{
   font-size: 2em;
 }
 hr.star-bright{
-  border-color:red;
+  border-color:#ccc;
+  opacity: 1;
 }
 hr.star-bright:after{
-  color:#000;
-  background-color:#aaa;
+  color:#fff;
+  background-color:#f6230b;
 }
 hr.star-dark{
-  border-color:#111;
+  border-color:#222;
 }
 hr.star-dark:after{
-  color:#fff;
-  background-color: #aaa;
+  color:#f6230b;
+  background-color: #222;
 }
 
 hr.star-{
@@ -421,7 +409,7 @@ hr.star-{
   padding:25px 0;
   background-color:#000;
   text-align:center;
-  color: #fff;
+  color: #fdf;
 }
 .fa-stack {
   position: relative;
