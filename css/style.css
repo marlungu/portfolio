@@ -8,9 +8,9 @@ html, body {
     height:100%;
     width: 100%;
 }
-/*.devicons {
+.devicons {
     margin-top: 25px;
-}*/
+}
 .name {
     font-size: 2.5em;
     color:  #fff;
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-light-gray {
-  background-color: #f7f7f7;
+  background-color: #ffff;
 }
 
 .navbar-default {
@@ -207,6 +207,7 @@ header .intro-text .intro-heading {
     padding-top: 250px;
     padding-bottom: 200px;
     text-align: center;
+
   }
 
   header .intro-text .intro-lead-in {
@@ -230,6 +231,8 @@ header .intro-text .intro-heading {
 }
 section {
   padding: 200px 0;
+  background: #DFDFDF;
+
 }
 section h2.section-heading {
   margin-top: 0;
@@ -250,7 +253,10 @@ section h3.section-subheading {
     padding: 150px 0;
   }
 }
+#portfolio {
+  background: #FFFFFF;
 
+}
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -403,7 +409,7 @@ section h3.section-subheading {
 
 ::selection {
     text-shadow: none;
-    background: #6DE3CD;
+    /*background: #6DE3CD;*/
 }
 
 img::selection {
@@ -419,7 +425,7 @@ body {
 }
 
 section#contact {
-  background-color: #FDFDFD;
+  background: #DFDFDF;
   background-position: center;
 
 }
