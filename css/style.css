@@ -307,7 +307,7 @@ section h3.section-subheading {
   margin: 0 auto;
   padding: 25px;
   max-width: 400px;
-  text-align: center;
+  text-align:center;
   background-color: #fff;
 }
 
@@ -317,6 +317,7 @@ section h3.section-subheading {
 }
 #portfolio .portfolio-item .portfolio-caption p {
   margin: 0;
+  text-align: left;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -330,7 +331,7 @@ section h3.section-subheading {
     margin: 0 0 30px;
   }
 }
-/*.portfolio-modal .modal-content {
+.portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -339,16 +340,16 @@ section h3.section-subheading {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-}*/
+}
 
-/*.portfolio-modal .modal-content h2 {
+.portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
-}*/
+}
 
 /*.portfolio-modal .modal-content p {
     margin-bottom: 30px;
-}*/
+}
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
