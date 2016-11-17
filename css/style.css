@@ -352,7 +352,7 @@ section h3.section-subheading {
 
 ::selection {
     text-shadow: none;
-    /*background:FF0000;*/
+    background:FF0000;
 }
 
 img::selection {
@@ -363,8 +363,9 @@ img::-moz-selection {
     background: 0 0;
 }
 #jsony {
-  color: #111;
   background: #FFF;
+  width: 100%;
+  height: 100%;
 }
 .json {
   display: inline-block;
