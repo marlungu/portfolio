@@ -8,9 +8,6 @@ html, body {
     height:100%;
     width: 100%;
 }
-/*.devicons {
-    margin-top: 25px;
-}*/
 .name {
     font-size: 2.5em;
     color:  #fff;
@@ -27,7 +24,7 @@ html, body {
     width: 100%;
     min-height: auto;
     opacity: 1;
-    background-image: url(../images/IMG_1307.png);
+    background-image: url(../images/main_img.png);
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
@@ -383,7 +380,6 @@ section#contact {
 
 }
 .text-center-contact p{
-  /*font-size:1.4em;*/
   margin: 30px 200px 40px;
 }
 .contactImage {
@@ -392,9 +388,9 @@ section#contact {
   border-radius: 50%;
   margin: 16px;
 }
-.list-inline {
+/*.list-inline {
   text-align: center;
-}
+}*/
 
 ul.social-buttons li a {
     display: block;
@@ -412,15 +408,8 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color:#000;
+    background-color:#eee;
 }
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-    outline: 0;
-}
-
 
 hr.star-bright, hr.star-dark{
   padding:0;
