@@ -367,9 +367,11 @@ img::-moz-selection {
 .json {
   display: inline-block;
   text-align:left;
+  font-size: 1.4em;
 }
 .jsonClass {
   color: #FF0000;
+  margin-left: 20px;
 }
 body {
     webkit-tap-highlight-color:FF0000;
