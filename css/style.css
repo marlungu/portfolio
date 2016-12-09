@@ -1,4 +1,9 @@
-
+.github {
+  color: #000;
+}
+.gitlogo {
+  color: #FFFFFF;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -10,7 +15,7 @@ html, body {
 }
 .name {
     font-size: 2.5em;
-    color:  #fff;
+    color:  #FFFFFF;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 @media (min-width: 769px) {
@@ -53,7 +58,7 @@ html, body {
     display: table-cell;
     position: relative;
     vertical-align: middle;
-    color: #fff;
+    color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 3px 2px 1px #777;
@@ -86,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-light-gray {
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 .navbar-default {
@@ -96,7 +101,7 @@ background-color: #000;
 
 .navbar-default .navbar-brand {
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-color: #fff;
+color: #FFFFFF;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -106,16 +111,16 @@ color: #fff;
 color: #FF0000;
 }
 .navbar-default .navbar-collapse {
-  border-color: #fff;
+  border-color: #FFFFFF;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #fff;
+  border-color: #FFFFFF;
   background-color: #FF0000;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -128,7 +133,7 @@ color: #FF0000;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
-  color:#fff;
+  color:#FFFFFF;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -139,13 +144,13 @@ color: #FF0000;
 
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0;
-  color: #fff;
+  color: #FFFFFF;
   background-color: #FF0000;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-  color: #fff;
+  color: #FFFFFF;
   background-color: #FF0000;
 }
 @media(min-width:768px) {
@@ -201,7 +206,7 @@ header {
 }
 section {
   padding: 100px 0;
-  background: #FFF;
+  background: #FFFFFF;
 
 }
 section h2.section-heading {
@@ -261,7 +266,7 @@ section h3.section-subheading {
   margin-top: -12px;
   text-align: center;
   font-size: 20px;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -277,7 +282,7 @@ section h3.section-subheading {
   padding: 25px;
   max-width: 400px;
   text-align:center;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -360,25 +365,30 @@ img::-moz-selection {
     background: 0 0;
 }
 #jsony {
-  background: #FFF;
+  background: #DFDFDF;
   width: 100%;
   height: 100%;
 }
 .json {
   display: inline-block;
   text-align:left;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .jsonClass {
   color: #FF0000;
   margin-left: 20px;
+}
+@media(min-width:768px) {
+  json {
+    height: 600px;
+  }
 }
 body {
     webkit-tap-highlight-color:FF0000;
 }
 
 section#contact {
-  background: #DFDFDF;
+  background: #FFFFFF;
 
 }
 .text-center-contact p{
@@ -410,7 +420,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color:#fff;
+    background-color:#FFFFFF;
 }
 
 hr.star-bright, hr.star-dark{
@@ -440,7 +450,7 @@ hr.star-bright{
   opacity: 1;
 }
 hr.star-bright:after{
-  color:#fff;
+  color:#FFFFFF;
   background-color:#FF0000;
 }
 hr.star-dark{
@@ -479,16 +489,16 @@ hr.star-{
     }
   }
   &bright {
-    border-color: #fff;
+    border-color: #FFFFFF;
     &:after {
-      color: #fff;
+      color: #FFFFFF;
       background-color: #aaa;
     }
   }
   &dark {
-    border-color: #fff;
+    border-color: #FFFFFF;
     &:after {
-      color: #fff;
+      color: #FFFFFF;
       background-color: #eee;
     }
   }
@@ -498,7 +508,7 @@ hr.star-{
   padding:25px 0;
   background-color:#000;
   text-align:center;
-  color: #fff;
+  color: #FFFFFF;
 }
 .fa-stack {
   position: relative;
