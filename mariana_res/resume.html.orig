@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Professional C.V, resume of Full Stack Developer Mariana Lungu">
+        <meta name="keywords" content="developer, full-stack, ruby developer, tech">
+        <meta name="author" content="Mariana Lungu">
+
+        <title>Mariana Lungu's Resume</title>
+
+        <!-- Styles
+        ================================================== -->
+        <link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+        <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-responsive.min.css">
+        <!--link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css"-->
+        <link rel="stylesheet" type="text/css" media="all" href="css/derek.css">
+        <link href="css/print.css" rel="stylesheet" media="print" />
+        <!--link rel="shortcut icon" href="css/favicon.ico"-->
+
+        <!-- IE support
+        ================================================== -->
+        <!--[if lt IE 9]>
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+          <script src="js/css3-mediaqueries.js"></script>
+        <![endif]-->
+        <script src="https://use.fontawesome.com/dd59bc2f8c.js"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid wrapper">
+
+            <!-- Heading
+            ================================================== -->
+            <div class="row-fluid heading">
+
+                <div class="span12">
+                    <h1 class="my-name">Mariana Lungu</h1>
+                    <h2 class="my-profession">Full-Stack Developer</h2>
+                    <a class="no-print" href="#" onclick="window.print();return false;">Printable Version</a>
+                    <h5><b><i class="fa fa-phone" aria-hidden="true"></i> 202.374.9884 | <i class="fa fa-envelope-o" aria-hidden="true"></i> me@marianalungu.io | <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+ <a style="color: #000000; text-decoration: none;" href="https://github.com/marlungu">marlungu</a> |<a style="color: #000000; text-decoration: none;" href="http://marianalungu.io/">Website</a> | <i class="fa fa-location-arrow" aria-hidden="true"></i> Washington, D.C</b></h5>
+                    <br>
+                    <p class="my-message">
+                      Former police officer turned programmer. A voracious learner who loves solving hard problems with insatiable curiosity. Inspired challenge seeker, who is driven to create beautiful and intuitive experiences that entertain.</p>
+                </div>
+
+            </div>
+
+            <!-- Resume
+            ================================================== -->
+            <div class="row-fluid resume">
+
+                <!-- column 1 -->
+                <div class="span4">
+                    <h3 class="my-caption">Technical Skills</h3>
+
+                    <h4 class="my-skill">
+                        HTML5
+                    </h4>
+                    <h4 class="my-skill">
+                        CSS3
+                    </h4>
+                    <h4 class="my-skill">
+                        JavaScript
+                    </h4>
+                    <h4 class="my-skill">
+                        jQuery
+                    </h4>
+                    <h4 class="my-skill">
+                        AngularJS
+                    </h4>
+                    <h4 class="my-skill">
+                      ReactJS
+                    </h4>
+                    <h4 class="my-skill">
+                        Express & NodeJS
+                    </h4>
+                    <h4 class="my-skill">
+                        MongoDB/Mongoose
+                    </h4>
+
+                    <h4 class="my-skill">
+                        Ruby on Rails
+                    </h4>
+
+                    <h4 class="my-skill">
+                        Active Record
+                    </h4>
+                    <h4 class="my-skill">
+                        Git
+                    </h4>
+                    <h3 class="my-caption">Education</h3>
+
+                    <h4 class="my-activity">Web Development Immersive course</h4>
+                    <h5 class="my-venture">General Assembly <span>2016</span></h5>
+                    <br>
+                    <h4 class="my-activity">B.S in Physics</h4>
+                    <h5 class="my-venture">UST, Moldova, Europe <span>2003 - 2007</span></h5>
+
+                    <h3 class="my-caption">Side Hustles</h3>
+
+                    <h4 class="my-activity">Tech Meetups</h4>
+                    <h4 class="my-activity">Running</h4>
+                    <h4 class="my-activity">Hiking</h4>
+                    <h4 class="my-activity">Snowboarding</h4>
+
+                </div>
+
+                <!-- column 2 -->
+                <div class="span8">
+                    <h3 class="my-caption">Relative Experience</h3>
+                      <h4  class="my-activity">Web Development Immersive Student </h4>
+                      <h5 class="my-venture">General Assembly, Washington DC<span>09/2016 - 12/2016</span></h5>
+<<<<<<< HEAD
+                      <p class="my-specifics">WDI is an immersive program geared toward training students to become world-class web developers, that focuses on teaching the latest technologies, frameworks, and design approaches. During the program, I developed three full stack web applications in 9 weeks using Ruby on Rails, Angular, React, Express, PostgreSQL, and MongoDB. <br> <span class="my-activity">Projects include:</span></p>
+                      <h4  class="my-activity">randomQA<a style="color: #000000; text-decoration: none;" href="https://github.com/marlungu/randomQA"> Repo Link</a></h4>
+||||||| merged common ancestors
+                      <p class="my-specifics">WDI is an immersive program geared toward training students to become world-class web developers, that focuses on teaching the latest technologies, frameworks, and design approaches. During the program, I developed three full stack web applications in 9 weeks using Ruby on Rails, Angular, React, Express, PostgreSQL, and MongoDB.</p>
+                      <h4  class="my-activity">randomQA<a style="color: #000000; text-decoration: none;" href="https://github.com/marlungu/randomQA"> Repo Link</a></h4>
+=======
+                      <p class="my-specifics">WDI is an immersive program geared toward training students to become world-class web developers, that focuses on teaching the latest technologies, frameworks, and design approaches. During the program, I developed three full stack web applications in 9 weeks using Ruby on Rails, Angular, React, Express, PostgreSQL, and MongoDB.</p>
+                      <h4  class="my-activity">randomQA<a style="color: #000000; text-decoration: none;" href="https://github.com/marlungu/randomQA"><span class='no-print'> Repo Link</span></a></h4>
+>>>>>>> 29d4463d9cc6efd88568807182ac3eda20d57eac
+                        <p class="my-venture">A Ruby on Rails interactive app, where a user can create, edit and delete their posts and comment on other users posts.</p>
+                        <h4  class="my-activity">GlobalCitizen<a style="color: #000000; text-decoration: none;" href="https://github.com/marlungu/globeView_angular"><span class='no-print'> Repo Link</span></a></h4>
+                        <p class="my-venture">GlobalCitizen is an app that allows users to enter their Country of Origin and see what destinations they can travel without having a visa.</p>
+                        <h4  class="my-activity">RandomQuotesGenerator<a style="color: #000000; text-decoration: none;"href="https://github.com/marlungu/RandomQuotesGenerator-in-React"><span class='no-print'> Repo Link</span></a></h4>
+                        <p class="my-venture">Built with React for the front-end and a third-party API for the back-end. As a user, I can click on the button to show me a new random quote and, optionally, I also can click a button to tweet out the quote.</p>
+
+                    <h3 class="my-caption">Professional Experience</h3>
+
+                    <h4 class="my-activity">Law Enforcement Officer</h4>
+                    <h5 class="my-venture">Metropolitan Police Dept., Washington, D.C <span>08/2014 - 08/2016</span></h5>
+                    <p  class="my-specifics">
+                      Patroled designated areas of the City in a car, by foot, or other means to preserve law and order. Responded to calls for the protection of life and property. Conducted investigations at scenes of incidents. Prepared and served search and arrest warrants. Participated in continuous training to enhance law enforcement skills.
+                    </p>
+                    <h4 class="my-activity">Assistant Manager</h4>
+                    <h5 class="my-venture">Hollister, Panama City Beach, FL <span>03/2013 - 12/2013</span></h5>
+                    <p  class="my-specifics">
+                     Recruited, trained and effectively managed a team, to a peak 30 people, in all facets of retail operations. Effectively managed customer relationships while efficiently controlling the inventory supply chain.
+      </p>
+
+
+                </div>
+
+                <!-- column 3 -->
+
+            </div><!-- end of resume -->
+
+        </div><!-- end of container -->
+
+        <!-- Javascript
+        ================================================== -->
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.masonry.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/derek.js"></script>
+
+    </body>
+</html>

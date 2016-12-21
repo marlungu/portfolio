@@ -316,14 +316,6 @@ section h3.section-subheading {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
-    font-size: 3em;
-}
-
-/*.portfolio-modal .modal-content p {
-    margin-bottom: 30px;
-}
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -335,11 +327,10 @@ section h3.section-subheading {
     margin-top: 0;
     margin-bottom: 30px;
 }
-/*.img-responsive {
+.img-responsive {
   margin: 0 auto;
-  border: 5px solid red;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 360px;
 }*/
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
