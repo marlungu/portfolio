@@ -1,5 +1,5 @@
 .github {
-  color: #000;
+  color: #222;
 }
 .gitlogo {
   color: #FFFFFF;
@@ -29,16 +29,16 @@ html, body {
     width: 100%;
     min-height: auto;
     opacity: 1;
-    background-image: url(../images/main_img.jpg);
+    background-image: url(../images/me.jpg);
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
 }
-/*@media (min-width: 769px) {
+@media (min-width: 769px) {
     .background img {
         width: 100%;
     }
-}*/
+}
 
 .fullscreen,
 .content-a {
@@ -75,12 +75,12 @@ p {
 }
 
 .text-primary {
-  color: #000;
+  color: #222;
 }
 
 a,a:hover,a:focus,a:active,a.active {
   outline: 0;
-  color: #FF0000;
+  color: #bbbbbb ;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default {
 border-color: transparent;
-background-color: #000;
+background-color: #222;
 }
 
 .navbar-default .navbar-brand {
@@ -108,7 +108,7 @@ color: #FFFFFF;
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-color: #FF0000;
+color: #bbbbbb ;
 }
 .navbar-default .navbar-collapse {
   border-color: #FFFFFF;
@@ -116,7 +116,7 @@ color: #FF0000;
 
 .navbar-default .navbar-toggle {
   border-color: #FFFFFF;
-  background-color: #FF0000;
+  background-color: #bbbbbb ;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -125,7 +125,7 @@ color: #FF0000;
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #FF0000;
+  background-color: #bbbbbb ;
 }
 
 .navbar-default .nav li a {
@@ -138,20 +138,20 @@ color: #FF0000;
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: #FF0000;
+  color: #bbbbbb ;
   text-decoration: none;
 }
 
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0;
   color: #FFFFFF;
-  background-color: #FF0000;
+  background-color: #bbbbbb ;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
   color: #FFFFFF;
-  background-color: #FF0000;
+  background-color: #bbbbbb ;
 }
 @media(min-width:768px) {
   .navbar-default {
@@ -176,7 +176,7 @@ color: #FF0000;
 
   .navbar-default.navbar-shrink {
     padding: 10px 0;
-    background-color: #000;
+    background-color: #222;
   }
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -366,7 +366,7 @@ img::-moz-selection {
   font-size: 1.2em;
 }
 .jsonClass {
-  color: #FF0000;
+  color: #FF0000 ;
   margin-left: 20px;
 }
 @media(min-width:768px) {
@@ -391,27 +391,30 @@ section#contact {
   border-radius: 50%;
   margin: 16px;
 }
-/*.list-inline {
-  text-align: center;
-}*/
 
 ul.social-buttons li a {
     display: block;
-    width: 44px;
-    height: 44px;
+    /*width: 44px;
+    height: 44px;*/
     border-radius: 10%;
     font-size: 14px;
     line-height: 40px;
     outline: 0;
-    color: #444;
+    /*color: inherit;*/
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
 }
+.fa-facebook-square { color: #3b5998; }
+.fa-twitter-square { color: #55acee; }
+.fa-linkedin-square { color: #0976b4; }
+.fa-instagram { color: #3f729b; }
+.fa-github-square {color:purple;}
+
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color:#FFFFFF;
+    background-color:#;
 }
 
 hr.star-bright, hr.star-dark{
@@ -442,13 +445,13 @@ hr.star-bright{
 }
 hr.star-bright:after{
   color:#FFFFFF;
-  background-color:#FF0000;
+  background-color:#bbbbbb ;
 }
 hr.star-dark{
   border-color:#222;
 }
 hr.star-dark:after{
-  color:#FF0000;
+  color:#bbbbbb ;
   background-color: #222;
 }
 
@@ -497,7 +500,7 @@ hr.star-{
 #footer {
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
   padding:25px 0;
-  background-color:#000;
+  background-color:#222;
   text-align:center;
   color: #FFFFFF;
 }
@@ -508,5 +511,5 @@ hr.star-{
   height: 2em;
   line-height: 2em;
   vertical-align: middle;
-  color:#FF0000;
+  color:#FF0000 ;
 }
