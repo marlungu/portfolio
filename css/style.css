@@ -356,9 +356,10 @@ img::-moz-selection {
     background: 0 0;
 }
 #jsony {
-  background: #DFDFDF;
+  background: whitesmoke;
   width: 100%;
-  height: 100%;
+  height: 60%;
+  color: #222;
 }
 .json {
   display: inline-block;
@@ -394,28 +395,18 @@ section#contact {
 
 ul.social-buttons li a {
     display: block;
-    /*width: 44px;
-    height: 44px;*/
-    border-radius: 10%;
     font-size: 14px;
     line-height: 40px;
     outline: 0;
-    /*color: inherit;*/
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
 }
-.fa-facebook-square { color: #3b5998; }
 .fa-twitter-square { color: #55acee; }
 .fa-linkedin-square { color: #0976b4; }
 .fa-instagram { color: #3f729b; }
 .fa-github-square {color:purple;}
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-    background-color:#;
-}
 
 hr.star-bright, hr.star-dark{
   padding:0;
