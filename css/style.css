@@ -219,7 +219,7 @@ section h3.section-subheading {
   }
 }
 #portfolio {
-  background: #DFDFDF;
+  background:#F5F5F5;
 
 }
 #portfolio .portfolio-item {
@@ -347,7 +347,7 @@ img::-moz-selection {
     background: 0 0;
 }
 #jsony {
-  background: whitesmoke;
+  background: #F5F5F5;
   width: 100%;
   height: 60%;
   color: #222;
