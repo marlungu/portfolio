@@ -80,7 +80,7 @@ p {
 
 a,a:hover,a:focus,a:active,a.active {
   outline: 0;
-  color: #bbbbbb ;
+  color: #FFFFFF ;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -88,10 +88,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
   color: #444;
-}
-
-.bg-light-gray {
-  background-color: #FFFFFF;
 }
 
 .navbar-default {
@@ -121,11 +117,6 @@ color: #bbbbbb ;
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #FFFFFF;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #bbbbbb ;
 }
 
 .navbar-default .nav li a {
@@ -171,12 +162,12 @@ color: #bbbbbb ;
   }
 
   .navbar-default .navbar-nav>.active>a {
-    border-radius: 5px;
+    border-radius: 3px;
   }
 
   .navbar-default.navbar-shrink {
     padding: 10px 0;
-    background-color: #222;
+    background-color:#222;
   }
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
