@@ -67,7 +67,7 @@ a:hover {
   /*margin: 0 0 25px 0;*/
 }
 .my-name {
-  color: #4A4A4A;
+  color: #389B17;
   font-size: 24px;
   line-height: 34px;
   text-transform: uppercase;
@@ -78,7 +78,8 @@ a:hover {
   line-height: 34px;
 }
 .my-profession {
-  color: #389B17;
+  color: #000;
+  font-weight: bold;
 }
 .my-services {
   margin-top: 34px;
@@ -89,10 +90,10 @@ a:hover {
 
 /* resume */
 .my-caption {
-  border-bottom: 1px solid #389B17;
-  color: #389B17;
+  border-bottom: 1px solid #000;
+  color: #000;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
   margin-top: 15px;
   text-transform: uppercase;
