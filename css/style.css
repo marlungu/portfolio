@@ -2,172 +2,186 @@
   color: #222;
 }
 .gitlogo {
-  color: #FFFFFF;
+  color: white !important;
 }
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
-html, body {
-    height:100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-.name {
-    font-size: 2.5em;
-    color:  #FFFFFF;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+h1.title {
+  letter-spacing: 0.27rem;
+  font-size: 50px;
+  font-weight: 800;
+  color: white !important;
 }
-@media (min-width: 769px) {
-    .name {
-        font-size: 3em;
-    }
+
+.sb-name {
+  letter-spacing: 0.15rem;
+  font-size: 20px !important;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
 }
+
 /*parallex*/
 .background {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    opacity: 1;
-    background-image: url(../images/me.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  opacity: 1;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
 }
 @media (min-width: 769px) {
-    .background img {
-        width: 100%;
-    }
+  .background img {
+    width: 100%;
+  }
 }
 
 .fullscreen,
 .content-a {
-    width: 100%;
-    min-height: 100%;
+  width: 100%;
+  min-height: 100%;
 }
 .fullscreen.not-overflow,
 .fullscreen.not-overflow .content-a {
-    height: 100%;
-    overflow: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 .content-a {
-    display: table;
+  display: table;
 }
 .content-b {
-    font-size: 200%;
-    display: table-cell;
-    position: relative;
-    vertical-align: middle;
-    color: #FFFFFF;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 3px 2px 1px #777;
+  font-size: 200%;
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 3px 2px 1px #777;
 }
 
 /*parallex*/
 p {
   font-size: 16px;
   line-height: 1.75;
-  font-family: Garamond, Georgia, serif;
+  font-family: " Lato", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777;
+  color: #333;
 }
 
 .text-primary {
   color: #222;
 }
 
-a,a:hover,a:focus,a:active,a.active {
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
   outline: 0;
-  color: #FFFFFF ;
+  color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-transform: uppercase;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #444;
 }
 
 .navbar-default {
-border-color: transparent;
-background-color: #222;
+  border-color: transparent;
+  background-color: black !important;
 }
 
 .navbar-default .navbar-brand {
-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-color: #FFFFFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-color: #bbbbbb ;
+  color: red;
 }
 .navbar-default .navbar-collapse {
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #FFFFFF;
-  background-color: #bbbbbb ;
+  border-color: #ffffff;
+  background-color: red;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #FFFFFF;
+  background-color: white;
 }
 
 .navbar-default .nav li a {
   text-transform: uppercase;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: " Lato", Helvetica, Arial, sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: #bbbbbb ;
+  color: #fff;
   text-decoration: none;
 }
 
-.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav > .active > a {
   border-radius: 0;
-  color: #FFFFFF;
-  background-color: #bbbbbb ;
+  color: #ffffff;
+  background-color: red;
 }
 
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-  color: #FFFFFF;
-  background-color: #bbbbbb ;
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: red;
 }
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .navbar-default {
     padding: 25px 0;
     border: 0;
-    background-color: transparent;
-    -webkit-transition: padding .3s;
-    -moz-transition: padding .3s;
-    transition: padding .3s;
+    /* background-color: transparent; */
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
   }
 
   .navbar-default .navbar-brand {
     font-size: 1.5em;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
   }
 
-  .navbar-default .navbar-nav>.active>a {
+  .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
   }
 
   .navbar-default.navbar-shrink {
     padding: 10px 0;
-    background-color:#222;
+    background-color: #222;
   }
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -180,7 +194,7 @@ header {
   text-align: center;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   header {
     height: 600px;
   }
@@ -189,16 +203,18 @@ header {
     padding-bottom: 200px;
     text-align: center;
     margin-bottom: 50px;
-    text-transform:  full-width;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 500;
-    opacity: .8;
+    text-transform: full-width;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    /* font-weight: 500; */
+    opacity: 0.8;
   }
+}
+#aboutme {
+  color: black;
 }
 section {
   padding: 100px 0;
-  background: #FFFFFF;
-
+  background: #ffffff;
 }
 section h2.section-heading {
   margin-top: 0;
@@ -212,15 +228,20 @@ section h3.section-subheading {
   font-size: 18px;
   font-weight: 400;
 }
-
-@media(min-width:768px) {
+.text {
+  color: red;
+}
+@media (min-width: 768px) {
   section {
     padding: 150px 0;
   }
 }
 #portfolio {
-  background:#F5F5F5;
-
+  /* background: #f5f5f5; */
+  background: #000;
+}
+#pt {
+  color: white !important;
 }
 #portfolio .portfolio-item {
   right: 0;
@@ -232,7 +253,6 @@ section h3.section-subheading {
   position: relative;
   margin: 0 auto;
   max-width: 400px;
-
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -240,16 +260,20 @@ section h3.section-subheading {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: rgba(19, 27, 25, .7);
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  transition: all ease .5s;
+  background: rgba(19, 27, 25, 0.7);
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -257,23 +281,37 @@ section h3.section-subheading {
   margin-top: -12px;
   text-align: center;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
   margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h3,
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h4 {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
   margin: 0 auto;
   padding: 25px;
   max-width: 400px;
-  text-align:center;
-  background-color: #FFFFFF;
+  text-align: center;
+  background-color: #ffffff;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -283,7 +321,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
   margin: 0;
   text-align: left;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-style: normal;
 }
@@ -291,200 +329,209 @@ section h3.section-subheading {
   z-index: 2;
 }
 
-@media(min-width:767px) {
+@media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
 }
 .portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  padding: 100px 0;
+  min-height: 100%;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
-    margin-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .img-responsive {
   margin: 0 auto;
   height: 200px;
   width: 360px;
-}*/
+}
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-
-
 ::-moz-selection {
-    text-shadow: none;
-    background:FF0000;
+  text-shadow: none;
+  background: FF0000;
 }
 
 ::selection {
-    text-shadow: none;
-    background:FF0000;
+  text-shadow: none;
+  background: FF0000;
 }
 
 img::selection {
-    background: 0 0;
+  background: 0 0;
 }
 
 img::-moz-selection {
-    background: 0 0;
+  background: 0 0;
 }
 #jsony {
-  background: #F5F5F5;
+  background: #f5f5f5;
   width: 100%;
   height: 60%;
   color: #222;
 }
 .json {
   display: inline-block;
-  text-align:left;
+  text-align: left;
   font-size: 1.2em;
 }
 .jsonClass {
-  color: #FF0000 ;
+  color: #ff0000;
   margin-left: 20px;
 }
-@media(min-width:768px) {
+@media (min-width: 768px) {
   json {
     height: 600px;
   }
 }
-body {
-    webkit-tap-highlight-color:FF0000;
-}
 
 section#contact {
-  background: #FFFFFF;
-
+  background: #ffffff;
 }
-.text-center-contact p{
+.text-center-contact p {
   margin: 30px 200px 40px;
 }
 .contactImage {
   height: 200px;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 10%;
   margin: 16px;
 }
-
+#contact {
+  color: black !important;
+}
 ul.social-buttons li a {
-    display: block;
-    font-size: 14px;
-    line-height: 40px;
-    outline: 0;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
+  display: block;
+  font-size: 14px;
+  line-height: 40px;
+  outline: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
-.fa-twitter-square { color: #55acee; }
-.fa-linkedin-square { color: #0976b4; }
-.fa-instagram { color: #3f729b; }
-.fa-github-square {color:purple;}
-
-
-hr.star-bright, hr.star-dark{
-  padding:0;
-  max-width:512px;
-  border:0;
-  border-top:solid 5px;
-  text-align:center;
+.fa-twitter-square {
+  color: #55acee;
 }
-@media(min-width:1023px){
-  header hr.star-bright, header hr.star-dark{
-    text-align:center;
+.fa-linkedin-square {
+  color: #0976b4;
+}
+.fa-instagram {
+  color: #3f729b;
+}
+.fa-github-square {
+  color: purple;
+}
+
+hr.star-bright,
+hr.star-dark {
+  padding: 0;
+  max-width: 100px;
+  border: 0;
+  border-top: solid 1px;
+  text-align: center;
+}
+@media (min-width: 1023px) {
+  header hr.star-bright,
+  header hr.star-dark {
+    text-align: center;
   }
 }
 
-hr.star-bright:after, hr.star-dark:after{
-  content:'\f121';
-  font-family:FontAwesome;
-  display:inline-block;
-  position:relative;
-  top:-.8em;
+hr.star-bright:after,
+hr.star-dark:after {
+  content: "\f121";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
   padding: 0.1.2em;
   font-size: 2em;
 }
-hr.star-bright{
-  border-color:#ccc;
+hr.star-bright {
+  border-color: #ccc;
   opacity: 1;
 }
-hr.star-bright:after{
-  color:#FFFFFF;
-  background-color:#bbbbbb ;
+hr.star-bright:after {
+  color: #ffffff;
+  background-color: #bbbbbb;
 }
-hr.star-dark{
-  border-color:#222;
+hr.star-dark {
+  border-color: #000;
 }
-hr.star-dark:after{
-  color:#bbbbbb ;
-  background-color: #222;
+hr.star-dark:after {
+  color: #bbbbbb;
+  background-color: #000;
 }
-
-hr.star-{
-  &bright, &dark {
+#star-dark {
+  border-color: white;
+}
+hr.star- {
+  &bright,
+  &dark {
     margin: 40px auto 30px;
     padding: 0;
     max-width: 512px;
     border: 0;
     border-top: solid 5px;
-    text-align:center;
+    text-align: center;
     header & {
-      @media(min-width:1023px){
-        margin-right:0;
-        text-align:right;
+      @media (min-width: 1023px) {
+        margin-right: 0;
+        text-align: right;
         &:after {
-          right:-10px;
+          right: -10px;
         }
       }
     }
     &:after {
-      content: '\f121';
+      content: "\f121";
       font-family: FontAwesome;
       display: inline-block;
       position: relative;
-      top: -.8em;
-      padding: 0 .25em;
+      top: -0.8em;
+      padding: 0 0.25em;
       font-size: 2em;
     }
   }
   &bright {
-    border-color: #FFFFFF;
+    border-color: #ffffff;
     &:after {
-      color: #FFFFFF;
+      color: #ffffff;
       background-color: #aaa;
     }
   }
   &dark {
-    border-color: #FFFFFF;
+    border-color: #ffffff;
     &:after {
-      color: #FFFFFF;
+      color: #ffffff;
       background-color: #eee;
     }
   }
 }
 #footer {
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
-  padding:25px 0;
-  background-color:#222;
-  text-align:center;
-  color: #FFFFFF;
+  padding: 25px 0;
+  background-color: black !important;
+  text-align: center;
+  color: #ffffff;
 }
 .fa-stack {
   position: relative;
@@ -493,5 +540,5 @@ hr.star-{
   height: 2em;
   line-height: 2em;
   vertical-align: middle;
-  color:#FF0000 ;
+  color: #ff0000;
 }
