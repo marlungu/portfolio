@@ -1,0 +1,18 @@
+html, 
+body {
+    width: 100% !important;
+}
+
+.hidden{display:none;visibility:hidden}
+.visible-phone{display:none!important}
+.visible-tablet{display:none!important}
+.hidden-desktop{display:none!important}
+.visible-desktop{display:inherit!important}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
