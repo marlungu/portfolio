@@ -7,9 +7,16 @@
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlungu/marlungu.github.io.git"
+  },
   "author": "Mariana Lungu",
   "license": "MIT",
-  "homepage": "https://marlungu.github.io/portfolio",
+  "bugs": {
+    "url": "https://github.com/marlungu/marlungu.github.io/issues"
+  },
+  "homepage": "https://github.com/marlungu/marlungu.github.io#readme",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.9.4"
