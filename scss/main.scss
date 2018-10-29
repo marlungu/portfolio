@@ -11,7 +11,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "century-old-style-std", serif;
+  font-family: "DomaineText", Georgia, serif;
   line-height: 1.5;
 }
 
@@ -86,7 +86,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: $secondary-color 3px solid;
+    border: $secondary-color 1px solid;
   }
 
   .bio {
@@ -141,7 +141,7 @@ main {
 
   div {
     font-size: 2rem;
-    border: 1px #fff solid;
+    // border: 1px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     @include easeOut;
@@ -154,6 +154,9 @@ main {
         color: set-text-color($secondary-color);
       }
     }
+  }
+  a {
+    color: #111;
   }
 }
 
