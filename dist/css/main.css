@@ -57,7 +57,7 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px brown; }
+      border: solid 1px brown; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
