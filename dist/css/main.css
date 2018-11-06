@@ -56,7 +56,8 @@
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpg");
-      border-radius: 50%; }
+      border-radius: 50%;
+      border: solid 1px #b40e0e; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -167,7 +168,8 @@ main {
     margin: auto;
     width: 250px;
     height: 250px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: #b40e0e 1px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
